@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+
+
+body {
+    background-image: url('ab.jpg'); /* Path to your image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: 1000px 500px; /* Sets the width and height of the image */
+    background-position: center; /* Centers the image */
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    margin: 0 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.brand img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.container {
+    margin: 20px;
+    text-align: center;
+}
+
+.songItemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.songItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.songItem img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.songItemPlay {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#progressBar {
+    width: 80%;
+    margin: 10px 0;
+}
+
+.controls i {
+    margin: 0 15px;
+    font-size: 24px;
+    cursor: pointer;
+}

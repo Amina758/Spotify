@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="Song Cover">
+                <span class="songName"><strong>Aseer-e-Mubhabt</strong> </span>
+                <i class="far fa-play-circle songItemPlay" id="0"></i>
+            </div>
+            <div class="songItem">
+                <img src="covers/2.jpg" alt="Song Cover">
+                <span class="songName"><strong>Tera mera jhan</strong> </span>
+                <i class="far fa-play-circle songItemPlay" id="1"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="covers/3.jpg" alt="Song Cover">
+                <span class="songName"><strong>Gentlemen</strong></span>
+                <i class="far fa-play-circle songItemPlay" id="1"></i>
+            </div>
+
+
+            <div class="songItem">
+                <img src="covers/4.jpg" alt="Song Cover">
+                <span class="songName"><strong>Do bol</strong>
+                    </span>
+                <i class="far fa-play-circle songItemPlay" id="1"></i>
+            </div>
+
+            <div class="songItem">
+                <img src="covers/6.jpg" alt="Song Cover">
+                <span class="songName"><strong>Pehli sii Muhabat</strong> </span>
+                <i class="far fa-play-circle songItemPlay" id="1"></i>
+            </div>
+            
+
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="progressBar" min="0" max="100" value="0">
+        <div class="controls">
+            <i class="fas fa-step-backward" id="prev"></i>
+            <i class="far fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-step-forward" id="next"></i>
+        </div>
+        <div id="currentSong">Playing: None</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
